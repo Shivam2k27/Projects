@@ -13,7 +13,7 @@ const Header = () => {
         to='program'
         spy={true}
         smooth={true}
-        >Programs</Link></li>
+        >Program</Link></li>
         <li><Link
         to='reasons'
         spy={true}
