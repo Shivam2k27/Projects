@@ -1,24 +1,24 @@
 import image1 from "../assets/t-image1.png";
 import image2 from "../assets/t-image2.jpg";
 import image3 from "../assets/t-image3.jpg";
-
+import shivam from '../assets/shivam_image.jpg'
 export const testimonialsData = [
   {
-    image: image1,
+    image: shivam,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
-    status : 'ENTREPRENEUR'
+      "Fitness changed my life forever , it has taught me patiene, discipline and persistency. No pain no Gain!!!",
+    name: 'SHIVAM CHAUDHARY',
+    status : 'CEO- FIT_CLUB'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'Fitness gives u the confidence to face life ',
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:' It all Comes to the mind , great coaches bring the best out of you',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

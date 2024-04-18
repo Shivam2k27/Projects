@@ -1,0 +1,50 @@
+.Footer-Parent {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 10rem;
+
+
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 6rem;
+}
+
+.social_media>img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.social_media>img:hover {
+    cursor: pointer;
+}
+
+.Footer-Parent>:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.empty-footer{
+    max-width:150%;
+    width:auto;
+    border: 0.1rem solid white;
+    height: 1px;
+    margin-bottom: 1rem;
+}
+.blur-footer1{
+    width: 40rem;
+    height: 30rem;
+    right: 15%;
+    filter: blur(300px);
+    background-color: red;
+}
+.blur-footer2{
+    width: 40rem;
+    height: 30rem;
+    left: 15%;
+    filter: blur(350px);
+    background-color: rgb(82, 8, 146);
+}

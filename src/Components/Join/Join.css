@@ -1,0 +1,46 @@
+.Parent-join{
+    display: flex;
+    padding: 2rem 2rem;
+}
+
+.left-join{
+    flex: 1;
+    font-size: 3rem;
+}
+
+.right-join{
+    flex: 1;
+}
+.left-join>:nth-child(1){
+    height: 0.3rem;
+    width: 15rem;
+    background: var(--orange);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.right-join{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container{
+    display: flex;
+    gap:3rem;
+    background: gray;
+    padding: 1rem;
+}
+.email-container>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: lightgray;
+}
+.email-container>button{
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: none;
+}

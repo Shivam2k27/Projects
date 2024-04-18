@@ -1,0 +1,79 @@
+.Parent-testimonial{
+    display: flex;
+    padding-top: 4rem;
+    margin-top: 2rem;
+
+}
+.left-testimonial{
+    display: flex;
+    flex-direction: column;
+    padding-left:3rem;
+    flex: 1;
+    text-transform: uppercase;
+    color: white;
+    gap:2rem;
+}
+
+.left-testimonial>:nth-child(1)
+{
+    color: orange;
+    font-size: 2rem;
+}
+.left-testimonial>:nth-child(2)
+{
+     
+    font-size: 2.2rem;
+    font-style: italic;
+
+}
+.left-testimonial>:nth-child(3)
+{
+     
+    font-size: 2.2rem;
+    font-style: italic;
+
+}
+
+.right-testimonial{
+    flex: 1;
+    position: relative;
+}
+
+.test-image>img{
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem 1rem;
+}
+
+.right-testimonial>img{
+position: absolute;
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+    top:2rem;
+    left:15rem;
+}
+.test-image{
+    position: absolute;
+    top: 15rem;
+    left: 0.1rem;
+}
+
+.empty-div{
+    position: absolute;
+    width: 18rem;
+    height: 20rem;
+    border: 3px solid orange;
+    top:1rem;
+    left:14rem;
+}
+.empty-orange{
+    position: absolute;
+    width: 18rem;
+    height: 20rem;
+    background-color: orange;
+    border-radius: 2%;
+    top:3rem;
+    left:16rem;
+    
+}
